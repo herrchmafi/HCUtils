@@ -8,7 +8,6 @@
 
 #import "HCViewController.h"
 
-#import "TestClass"
 
 @interface HCViewController ()
   
