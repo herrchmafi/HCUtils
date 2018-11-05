@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HCUtils_Example' do
+  pod 'HCUtils', :path => '../'
+
+  target 'HCUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
