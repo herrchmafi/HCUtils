@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		01DC56CA1B70859095517A5F254072CD /* Pods-HCUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 166612A36F9CC3C1F47ABC90D9E6AF5A /* Pods-HCUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B26492158DAB9070C51C6BC18CBFDA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		2BCFBF649F489B0203E47AB39B6E4FB2 /* HCUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 923FFA4051DDC70F1A2D8F12A27E5B4F /* HCUtils-dummy.m */; };
 		328DF2521C56B7713F6EC4FA07F27861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		41F739F455759EEFC756D9B66F2F79CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		42F35A53DEC008E582B2F5E3E5C02AD1 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2039826F24A7904669CD99C2903E0F90 /* ReplaceMe.m */; };
 		4400A4ADF0D1DCFE7FC0441CF832B93E /* Pods-HCUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9E62F3D403C842BCCFB4F473EA70B8 /* Pods-HCUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6756C1C0986CECEAA78A6A987E487F2D /* HCUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB7992A3382A4BA73E60069A5B71101 /* HCUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		754190DDF24C9FA3B3418022E07A14C9 /* Pods-HCUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDEB00754E3140B1870B3C0D65816BD /* Pods-HCUtils_Example-dummy.m */; };
-		87B9968D530C604B06F751937A19DEFE /* HCUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F29EA8CD1D006FE87FBAFAAF0D8FE564 /* HCUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98DCA8122C8C788630F3C2A27564BC66 /* HCUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA17454BA7E408F816E9CCFA04CF22 /* HCUtils-dummy.m */; };
+		99640ECBB5A8ED137C4B051B5F15AC08 /* HCMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7829D8E9A5139DACD51717E9472CE7A2 /* HCMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A41E1FC957B2772019959C25F68147A7 /* Pods-HCUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F82AD48755A2CBE5381CBC2E8658ABC9 /* Pods-HCUtils_Tests-dummy.m */; };
+		B351BC1DE70447BEEDD0D50222B258B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,43 +31,43 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 52184DCC7265AD29FFAABA2C6454352E;
+			remoteGlobalIDString = 7CFA3533013B84364E5B16BD0C3129CD;
 			remoteInfo = HCUtils;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		003E5194184135FFC696632134B0A958 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1042A72901B38E246EFA2C7F06AC0E00 /* Pods_HCUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HCUtils_Example.framework; path = "Pods-HCUtils_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03351B86B651E7B74D6EA68C50791B13 /* HCUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCUtils-prefix.pch"; sourceTree = "<group>"; };
+		0DB7992A3382A4BA73E60069A5B71101 /* HCUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCUtils-umbrella.h"; sourceTree = "<group>"; };
+		1042A72901B38E246EFA2C7F06AC0E00 /* Pods_HCUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10A9C1B3D3C91F57A5B1F6B15574BE77 /* Pods-HCUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		166612A36F9CC3C1F47ABC90D9E6AF5A /* Pods-HCUtils_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCUtils_Example-umbrella.h"; sourceTree = "<group>"; };
-		17455369C3F96D19961997D673F453FB /* HCUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCUtils-prefix.pch"; sourceTree = "<group>"; };
-		1FEB6C95C3BACB4CFBAF3E1A715ED9D7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2039826F24A7904669CD99C2903E0F90 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HCUtils/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		26B9524927D4914DC4AC5D1B8B32DE39 /* HCUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HCUtils.modulemap; sourceTree = "<group>"; };
 		38C27CFD4F618217EB3D2F92D5D6AF0E /* Pods-HCUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42EA17454BA7E408F816E9CCFA04CF22 /* HCUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCUtils-dummy.m"; sourceTree = "<group>"; };
 		47C7524A32EA0280A1C179C8FE0ACB60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AC7C86EF448E9D2C778729BFE0C6B1C /* Pods-HCUtils_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCUtils_Example-resources.sh"; sourceTree = "<group>"; };
-		5261178001A1D2A89DB610FACA31782D /* HCUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCUtils.xcconfig; sourceTree = "<group>"; };
 		555141EFEB0F26EC02D8D5D767581817 /* Pods-HCUtils_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCUtils_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6236C141AB01462CE4E3081A9AF89DBD /* Pods-HCUtils_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HCUtils_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		72970F264DF7971022BD2D6E225F900A /* Pods-HCUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7829D8E9A5139DACD51717E9472CE7A2 /* HCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HCMacros.h; path = HCUtils/Classes/HCMacros.h; sourceTree = "<group>"; };
+		78439F2E770AEECBC3240400054010AE /* HCUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HCUtils.modulemap; sourceTree = "<group>"; };
 		7B5E923EFAF83514CA52DA763C64CBB7 /* Pods-HCUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HCUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		7FA168379BEE206104053BBEB9DE2D33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8123E65C0FD2E25887628A5BA2D7CCAB /* Pods-HCUtils_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCUtils_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		825B0E6DC24F3218389C7449F3F04A1C /* HCUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HCUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		878EC3FAAD36E9ECC8E1BDF2BDD12E62 /* Pods-HCUtils_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCUtils_Example-frameworks.sh"; sourceTree = "<group>"; };
-		923FFA4051DDC70F1A2D8F12A27E5B4F /* HCUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCUtils-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		946E098F8DD6A996C15D74D840996B27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B18D47D271572290DF4825933ECEE235 /* HCUtils.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HCUtils.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B78C2232CEFCFC881A3A9F4CF4F6EE09 /* HCUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCUtils.framework; path = HCUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B78C2232CEFCFC881A3A9F4CF4F6EE09 /* HCUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HCUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC60FBD68B0CEDD73EC94B99D140709 /* HCUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCUtils.xcconfig; sourceTree = "<group>"; };
 		BC76DBDF0B9C8A6B75B8A8EBEB238E0A /* Pods-HCUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C120E00527B68CEB948BC8F39554C534 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CE9E62F3D403C842BCCFB4F473EA70B8 /* Pods-HCUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HCUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CEF4B5D1AAE78C4924F31DB035AFC229 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D43A99FCCC6873D2D0FC20C864C969B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DD3927DC47DFDE73592FDAA9B82F31BD /* Pods-HCUtils_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCUtils_Tests-resources.sh"; sourceTree = "<group>"; };
 		E3DA4B6C4641DBC6E83A64986C803FAE /* Pods-HCUtils_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCUtils_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E5140204CF8288AE934A679CD7AD337D /* Pods_HCUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HCUtils_Tests.framework; path = "Pods-HCUtils_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F29EA8CD1D006FE87FBAFAAF0D8FE564 /* HCUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCUtils-umbrella.h"; sourceTree = "<group>"; };
+		E5140204CF8288AE934A679CD7AD337D /* Pods_HCUtils_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCUtils_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A73A59BD958E1A920BB85E0CC25183 /* Pods-HCUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HCUtils_Example.modulemap"; sourceTree = "<group>"; };
 		F82AD48755A2CBE5381CBC2E8658ABC9 /* Pods-HCUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HCUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		FBB30CD51B5E2E9A8FEED36144F8E584 /* Pods-HCUtils_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCUtils_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,14 +75,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		023D634F1B0155A3C0F139041DC229E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41F739F455759EEFC756D9B66F2F79CB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2149851D72C502A24B17471AF0FF5B44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,25 +91,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8107FE8494E4D8620486B6B5F894288C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B351BC1DE70447BEEDD0D50222B258B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BE466B7F65E44BA5C1B6B00D94348A1 /* Pod */ = {
+		0E678BD1A9238BF31C08FF55D2E900BD /* HCUtils */ = {
 			isa = PBXGroup;
 			children = (
-				B18D47D271572290DF4825933ECEE235 /* HCUtils.podspec */,
-				1FEB6C95C3BACB4CFBAF3E1A715ED9D7 /* LICENSE */,
-				CEF4B5D1AAE78C4924F31DB035AFC229 /* README.md */,
+				7829D8E9A5139DACD51717E9472CE7A2 /* HCMacros.h */,
+				4087AFDB0B985A9FF6302112CA2265D4 /* Pod */,
+				387F8B311B07C927CD84E611D27D1494 /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2FBB69950C5FBAAA730D0B30AA156EE2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7CDAA923D91082A9C0D0A03CBF59808E /* HCUtils */,
-			);
-			name = "Development Pods";
+			name = HCUtils;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		339F2D8B83BA995CCD1AE382CA1316AC /* Pods-HCUtils_Example */ = {
@@ -136,6 +129,30 @@
 			);
 			name = "Pods-HCUtils_Example";
 			path = "Target Support Files/Pods-HCUtils_Example";
+			sourceTree = "<group>";
+		};
+		387F8B311B07C927CD84E611D27D1494 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78439F2E770AEECBC3240400054010AE /* HCUtils.modulemap */,
+				BBC60FBD68B0CEDD73EC94B99D140709 /* HCUtils.xcconfig */,
+				42EA17454BA7E408F816E9CCFA04CF22 /* HCUtils-dummy.m */,
+				03351B86B651E7B74D6EA68C50791B13 /* HCUtils-prefix.pch */,
+				0DB7992A3382A4BA73E60069A5B71101 /* HCUtils-umbrella.h */,
+				7FA168379BEE206104053BBEB9DE2D33 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HCUtils";
+			sourceTree = "<group>";
+		};
+		4087AFDB0B985A9FF6302112CA2265D4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				825B0E6DC24F3218389C7449F3F04A1C /* HCUtils.podspec */,
+				C120E00527B68CEB948BC8F39554C534 /* LICENSE */,
+				D43A99FCCC6873D2D0FC20C864C969B9 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -164,22 +181,19 @@
 			path = "Target Support Files/Pods-HCUtils_Tests";
 			sourceTree = "<group>";
 		};
-		7CDAA923D91082A9C0D0A03CBF59808E /* HCUtils */ = {
+		6F199F67D20C69A52ABD7A6D336886DB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2039826F24A7904669CD99C2903E0F90 /* ReplaceMe.m */,
-				0BE466B7F65E44BA5C1B6B00D94348A1 /* Pod */,
-				D131DC8847D52F37523F4D6088B4C994 /* Support Files */,
+				0E678BD1A9238BF31C08FF55D2E900BD /* HCUtils */,
 			);
-			name = HCUtils;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2FBB69950C5FBAAA730D0B30AA156EE2 /* Development Pods */,
+				6F199F67D20C69A52ABD7A6D336886DB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				E52AE6225243E261D789A885FCDD1A87 /* Products */,
 				CB3005C9165563C49530AC6D0296C0D6 /* Targets Support Files */,
@@ -203,20 +217,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D131DC8847D52F37523F4D6088B4C994 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				26B9524927D4914DC4AC5D1B8B32DE39 /* HCUtils.modulemap */,
-				5261178001A1D2A89DB610FACA31782D /* HCUtils.xcconfig */,
-				923FFA4051DDC70F1A2D8F12A27E5B4F /* HCUtils-dummy.m */,
-				17455369C3F96D19961997D673F453FB /* HCUtils-prefix.pch */,
-				F29EA8CD1D006FE87FBAFAAF0D8FE564 /* HCUtils-umbrella.h */,
-				946E098F8DD6A996C15D74D840996B27 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HCUtils";
-			sourceTree = "<group>";
-		};
 		E52AE6225243E261D789A885FCDD1A87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,19 +230,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		08D20259DE3A966446EACBD57373D9E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99640ECBB5A8ED137C4B051B5F15AC08 /* HCMacros.h in Headers */,
+				6756C1C0986CECEAA78A6A987E487F2D /* HCUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0DB89D7E8C07A90B498F31BA4931A3AA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				01DC56CA1B70859095517A5F254072CD /* Pods-HCUtils_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EBA81B914F689316A7F93050FABCBCE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				87B9968D530C604B06F751937A19DEFE /* HCUtils-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +277,14 @@
 			productReference = 1042A72901B38E246EFA2C7F06AC0E00 /* Pods_HCUtils_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52184DCC7265AD29FFAABA2C6454352E /* HCUtils */ = {
+		7CFA3533013B84364E5B16BD0C3129CD /* HCUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC5D59328209110635CB6D28DE71E871 /* Build configuration list for PBXNativeTarget "HCUtils" */;
+			buildConfigurationList = EBFC967109A966F7E64DAFC1518EB550 /* Build configuration list for PBXNativeTarget "HCUtils" */;
 			buildPhases = (
-				4EBA81B914F689316A7F93050FABCBCE /* Headers */,
-				78AB6FBD6A00E8893E42929A570C3832 /* Sources */,
-				023D634F1B0155A3C0F139041DC229E6 /* Frameworks */,
-				7CAC667E228A8D03BB265FDFA2980276 /* Resources */,
+				08D20259DE3A966446EACBD57373D9E6 /* Headers */,
+				26BFB5FA32411C04A48DEE69BE0D9A76 /* Sources */,
+				8107FE8494E4D8620486B6B5F894288C /* Frameworks */,
+				7A0B63FE74FEF0FB8DDD5F92607ED2BF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -334,7 +335,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52184DCC7265AD29FFAABA2C6454352E /* HCUtils */,
+				7CFA3533013B84364E5B16BD0C3129CD /* HCUtils */,
 				430757E0500B1FC3A49B3B6CEA95C95E /* Pods-HCUtils_Example */,
 				C8080160A46BD135AFDF7FC34DD960C4 /* Pods-HCUtils_Tests */,
 			);
@@ -349,7 +350,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CAC667E228A8D03BB265FDFA2980276 /* Resources */ = {
+		7A0B63FE74FEF0FB8DDD5F92607ED2BF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,20 +367,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		26BFB5FA32411C04A48DEE69BE0D9A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DCA8122C8C788630F3C2A27564BC66 /* HCUtils-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A74C9644BA4E69732B50328F6AA0B90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A41E1FC957B2772019959C25F68147A7 /* Pods-HCUtils_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78AB6FBD6A00E8893E42929A570C3832 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BCFBF649F489B0203E47AB39B6E4FB2 /* HCUtils-dummy.m in Sources */,
-				42F35A53DEC008E582B2F5E3E5C02AD1 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,42 +403,12 @@
 		0D46C9AF5C801F2E6957A975308E3C86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HCUtils;
-			target = 52184DCC7265AD29FFAABA2C6454352E /* HCUtils */;
+			target = 7CFA3533013B84364E5B16BD0C3129CD /* HCUtils */;
 			targetProxy = 8A354F519CABE5471413ABFE3856439D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		137BBCA9D35225E64E7431B8954E4A55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5261178001A1D2A89DB610FACA31782D /* HCUtils.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HCUtils/HCUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HCUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HCUtils/HCUtils.modulemap";
-				PRODUCT_MODULE_NAME = HCUtils;
-				PRODUCT_NAME = HCUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1549865B03167CEAC121EE1642DD1D2F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3DA4B6C4641DBC6E83A64986C803FAE /* Pods-HCUtils_Example.release.xcconfig */;
@@ -466,6 +436,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1DEED4D1F631E91A418E9ADD21572C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC60FBD68B0CEDD73EC94B99D140709 /* HCUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HCUtils/HCUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HCUtils/HCUtils.modulemap";
+				PRODUCT_MODULE_NAME = HCUtils;
+				PRODUCT_NAME = HCUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,9 +636,9 @@
 			};
 			name = Release;
 		};
-		5CBC8A3403D438128BC6716B18F4703C /* Release */ = {
+		9BCE95BF900A47417E247FF5FF32FD60 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5261178001A1D2A89DB610FACA31782D /* HCUtils.xcconfig */;
+			baseConfigurationReference = BBC60FBD68B0CEDD73EC94B99D140709 /* HCUtils.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -660,11 +661,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		A80C0D9CB81B9FA820A11AE22989B13D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -762,11 +762,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC5D59328209110635CB6D28DE71E871 /* Build configuration list for PBXNativeTarget "HCUtils" */ = {
+		EBFC967109A966F7E64DAFC1518EB550 /* Build configuration list for PBXNativeTarget "HCUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				137BBCA9D35225E64E7431B8954E4A55 /* Debug */,
-				5CBC8A3403D438128BC6716B18F4703C /* Release */,
+				9BCE95BF900A47417E247FF5FF32FD60 /* Debug */,
+				1DEED4D1F631E91A418E9ADD21572C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

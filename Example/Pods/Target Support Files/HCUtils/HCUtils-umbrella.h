@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "HCMacros.h"
+#import "TestClass.h"
 
 FOUNDATION_EXPORT double HCUtilsVersionNumber;
 FOUNDATION_EXPORT const unsigned char HCUtilsVersionString[];

@@ -1,8 +1,8 @@
 {
   "name": "HCUtils",
   "version": "0.1.0",
-  "summary": "A short description of HCUtils.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A hodgepodge of utils used by the one-and-only HerrChmafi!",
+  "description": "WIP: I will update this later. To bypass the warnings, this has to be longer than the summary!",
   "homepage": "https://github.com/herrchmafi/HCUtils",
   "license": {
     "type": "MIT",
